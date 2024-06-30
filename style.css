@@ -1,0 +1,91 @@
+body {
+    background-color: #353535;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+header {
+    text-align: right;
+    padding: 10px;
+}
+
+.circular--square {
+    border-radius: 50%;
+}
+
+ul.navega li {
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #F3F3F3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Ocupa el espacio disponible */
+}
+
+.google {
+    font: 900% futura;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 680px;
+    height: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 25px; 
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;  
+    justify-content: center;  /* Centra los botones horizontalmente */
+    align-items: center;  /* Centra los botones verticalmente */
+    gap: 20px;  /* Espacio entre los botones */
+    padding: 20px;  /* Espacio alrededor del contenedor */
+    border-radius: 4px;  
+}
+
+.btn {
+    padding: 10px 20px;  
+    font-size: 16px;  
+    color: #fff;  
+    background-color: #484848;  
+    border: none;  
+    border-radius: 4px;  
+}
+
+.btn:hover{
+    color: #949292;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #484848;
+    color: #F3F3F3;
+    padding: 10px;
+    text-align: center;
+}
+
+ul.menu li {
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    text-align: center;
+}
